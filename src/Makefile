@@ -12,7 +12,7 @@ EDIMG    = $(TOOLPATH)edimg
 IMGTOL   = $(TOOLPATH)imgtol.com
 QEMU	 = qemu-system-i386 -fda
 COPY     = cp
-DEL      = rm -r
+DEL      = rm -rf
 
 #default
 default : 
@@ -66,5 +66,10 @@ clean:
 	-$(DEL) *.gas
 	-$(DEL) *.obj
 	-$(DEL) *.sys
+	-$(DEL) *.map
+	-$(DEL) *.hrb
+	-$(DEL) *.bim
+	-$(DEL) *.img
+	-$(DEL) bootpack.nas
 
 

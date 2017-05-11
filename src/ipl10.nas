@@ -1,4 +1,4 @@
-; haribote-ipl
+; amiaoOS-ipl
 ; TAB=4
 
 CYLS	EQU		10				; 声明CYLS=10
